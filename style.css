@@ -82,8 +82,8 @@ nav a:hover {
 }
 
 .container {
-  width: 90%;
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1000px;
   margin: 2rem auto;
 }
 
@@ -94,7 +94,7 @@ nav a:hover {
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 1.5rem;
 }
 
