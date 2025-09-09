@@ -130,7 +130,7 @@ nav a:hover {
   color: #fff;
   border-radius: 5px;
   text-decoration: none;
-  width: 50%;
+  width: max-content;
 }
 
 .card a:hover {
@@ -147,4 +147,5 @@ footer {
 
 .links {
   display: flex;
+  justify-content: space-between;
 }
