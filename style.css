@@ -123,7 +123,7 @@ nav a:hover {
   margin-bottom: 1rem;
 }
 
-.card a {
+.card a :not(.pdf-link) {
   display: inline-block;
   padding: 0.5rem 1rem;
   background: #3498db;
@@ -133,7 +133,7 @@ nav a:hover {
   width: max-content;
 }
 
-.card a:hover {
+.card a:hover :not(.pdf-link){
   background: #2980b9;
 }
 
